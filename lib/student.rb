@@ -1,6 +1,6 @@
 class Student < Teacher
   def initialize
-    @knoledge = []
+    @knowledge = []
   end
 
 end
