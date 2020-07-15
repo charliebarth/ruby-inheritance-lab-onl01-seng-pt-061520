@@ -4,6 +4,7 @@ class Student < Teacher
   end
   
   def learn
-    @knowledge << 
+    @knowledge << Teacher.teach
+  end
 
 end
