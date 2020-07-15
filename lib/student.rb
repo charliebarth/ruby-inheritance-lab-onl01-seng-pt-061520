@@ -3,8 +3,8 @@ class Student < Teacher
     @knowledge = []
   end
   
-  def learn
-    @knowledge << Teacher.teach
+  def learn(string)
+    @knowledge << string
   end
 
 end
